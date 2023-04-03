@@ -11,7 +11,7 @@
   --dairy: #fcfcfc;
 }
 body {
-  font-family: "Roboto" sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -50,6 +50,10 @@ body {
 .menu:hover,
 .menu:focus {
   color: var(--ocean);
+}
+.adress {
+  font-style: normal;
+  color: var(--slate);
 }
 .address-links {
   font-style: normal;
