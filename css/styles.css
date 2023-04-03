@@ -9,25 +9,21 @@
   --cloud: #f4f4fd;
   --white: #ffffff;
   --dairy: #fcfcfc;
-  --background-color: #e5e5e5;
 }
 body {
-  font-family: "Roboto";
+  font-family: "Roboto" sans-serif;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--navy-blue);
-  background-color: var(--background-color);
+  color: var(--slate);
+  background-color: var(--white);
 }
 /*header style*/
 .header-style {
   background: var(--white);
 }
 .logo {
-  text-decoration: none;
-}
-.logo-web {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -36,29 +32,27 @@ body {
   color: var(--iris);
 }
 .logo-studio {
-  font-family: "Raleway";
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+  color: var(--navy-blue);
 }
-.menu-links {
+.list {
+  list-style: none;
+}
+.menu {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+.link {
   text-decoration: none;
 }
-.menu-links:hover,
-.menu-links:focus {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+.menu:hover,
+.menu:focus {
   color: var(--ocean);
 }
 .address-links {
+  font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -82,10 +76,11 @@ body {
   line-height: 1.07;
   text-align: center;
   color: var(--white);
+  letter-spacing: 0.02em;
 }
 .btn {
   font-weight: 500;
-  font-family: inherit;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -93,13 +88,8 @@ body {
   color: var(--white);
   cursor: pointer;
 }
-.btn:hover {
-  font-weight: 600;
-  font-family: inherit;
-  font-size: 16px;
-  line-height: 1.18;
-  letter-spacing: 0.04em;
-  color: var(--white);
+.btn:hover,
+.btn:focus {
   background-color: var(--ocean);
   cursor: pointer;
 }
@@ -108,6 +98,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: var(--navy-blue);
 }
 .feature-description {
   font-size: 16px;
@@ -120,6 +111,8 @@ body {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--navy-blue);
   text-transform: capitalize;
 }
 .section-our-team {
@@ -129,11 +122,13 @@ body {
   background-color: var(--white);
 }
 .portfolio-filters {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--iris);
+  background-color: var(--cloud);
   cursor: pointer;
 }
 .portfolio-filters:hover,
